@@ -8,6 +8,25 @@ import skills from './SkillsData';
 const SkillsCarousel = () => {
 
 
+  const NextArrow = ({ onClick }) => (
+    <div
+      className="absolute top-1/2 right-0 transform py-[72px] rounded text-transparent px-3 flex items-center -translate-y-1/2 text-4xl cursor-pointer hover:text-white hover:bg-[#6d6d6e66;] transition-colors duration-200 z-10"
+      onClick={onClick}
+    >
+      &#10095; {/* Right Arrow Symbol */}
+    </div>
+  );
+
+  // Custom Prev Arrow Component
+  const PrevArrow = ({ onClick }) => (
+    <div
+      className="absolute top-1/2 left-0 transform py-[72px] rounded text-transparent px-3 flex items-center -translate-y-1/2 text-4xl cursor-pointer hover:text-white hover:bg-[#6d6d6e66;] transition-colors duration-200 z-10"
+      onClick={onClick}
+    >
+      &#10094; {/* Left Arrow Symbol */}
+    </div>
+  );
+
     var settings = {
         // dots: true,
         infinite: true,
@@ -20,6 +39,8 @@ const SkillsCarousel = () => {
         pauseOnHover: true,
         centerPadding: "60px",
         className: "center",
+        nextArrow: <NextArrow />,
+        prevArrow: <PrevArrow />,
         // centerMode: true,
         cssEase: "linear",
         responsive: [

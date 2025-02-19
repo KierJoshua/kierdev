@@ -4,7 +4,7 @@ import { SiGmail } from "react-icons/si";
 
 const Socials = () => {
   return (
-    <div className='fixed sm:right-16 right-4 top-1/2 transform -translate-y-1/2 flex flex-col items-center gap-4 z-10' 
+    <div className='fixed md:right-12 lg:right-16 right-4 top-1/2 transform -translate-y-1/2 flex flex-col items-center gap-4 z-10' 
          data-aos="fade-left" data-aos-duration='1500'>
       
       <a href="https://www.facebook.com/kierjoshuadu" target='_blank' rel="noopener noreferrer">
