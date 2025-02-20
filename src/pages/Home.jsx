@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <div className="min-h-screen w-full bg-custom-gradient pt-32 flex justify-center items-center px-6 sm:px-12 cursor-pointer overflow-hidden">
       <div className="flex flex-col items-center">
-        <div className="grid md:grid-cols-2 items-center gap-10 rounded-lg min-h-[650px] max-w-lg sm:max-w-2xl md:max-w-3xl bg-slate-900 p-10 shadow-xl">
+        <div className="grid md:grid-cols-2 items-center gap-10 rounded-lg min-h-[650px] max-w-md sm:max-w-2xl md:max-w-3xl bg-slate-900 p-10 shadow-xl">
           {/* Left Content */}
           <div className="text-center md:text-left">
             <h1 className="text-5xl font-bold text-white mb-6 leading-tight">
