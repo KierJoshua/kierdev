@@ -17,10 +17,7 @@ const Home = () => {
               Aiming to be a Full-Stack Developer!
             </h2>
             <p className="text-base sm:text-lg text-gray-400 max-w-lg mb-6">
-              Bachelor of Science in Information Technology graduate from City
-              College of Calamba. Passionate about web development, actively
-              seeking opportunities to expand my skills in a dynamic and
-              collaborative environment.
+            Soon-to-be graduate of Bachelor of Science in Information Technology from City College of Calamba. Passionate about web development and actively seeking opportunities to expand my skills in a dynamic and collaborative environment.
             </p>
 
             {/* Call-to-Action Button */}
