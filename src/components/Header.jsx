@@ -16,9 +16,9 @@ const Header = () => {
       </Link>
       <ul className="hidden sm:flex gap-2 md:gap-5 lg:gap-7 font-semibold">
         <NavMenu link={"skills"} title={"Tech Skills"} />
-        <NavMenu link={"about-me"} title={"About Me"} />
+        <NavMenu link={"projects"} title={"Projects"} />
         <NavMenu link={"experience"} title={"Experience"} />
-        <NavMenu link={"contact"} title={"Contact"} />
+        <NavMenu link={"about-me"} title={"About Me"} />
       </ul>
 
       {isClicked && (

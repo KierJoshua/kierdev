@@ -4,7 +4,7 @@ import './App.css'
 import Home from './pages/Home'
 import KRoot from './Root'
 import Experience from './pages/Experience'
-import Contact from './pages/Contact'
+import Projects from './pages/projects/Projects'
 import AboutMe from './pages/AboutMe'
 import Skills from './pages/Skills/Skills'
 
@@ -18,7 +18,7 @@ function App() {
       {path:"/about-me",element:<AboutMe />},
       {path:"/experience",element:<Experience />},
       {path:"/skills",element:<Skills />},
-      {path:"/contact",element:<Contact />},
+      {path:"/projects",element:<Projects />},
     ]
   }])
 
