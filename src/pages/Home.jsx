@@ -25,7 +25,7 @@ const Home = () => {
     <Helmet>
     <title>{`<Kier Dev />`}</title>
     <meta charSet="utf-8" />
-  </Helmet>
+    </Helmet>
 
     <div className="min-h-screen w-full bg-custom-gradient pt-24 sm:pt-32 flex justify-center items-center px-6 sm:px-12 cursor-pointer overflow-hidden">
       <div className="flex flex-col items-center">
