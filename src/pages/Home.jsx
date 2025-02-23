@@ -23,7 +23,7 @@ const Home = () => {
   return (
     <>
     <Helmet>
-    <title><Kier Dev /></title>
+    <title>{`<Kier Dev />`}</title>
     <meta charSet="utf-8" />
   </Helmet>
 
