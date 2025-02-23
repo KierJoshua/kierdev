@@ -6,7 +6,7 @@ const Skills = () => {
   return (
         <>
           <Helmet>
-            <title>Projects</title>
+            <title>Tech Skills</title>
             <meta charSet="utf-8" />
           </Helmet>
     <div className="min-h-screen w-full bg-custom-gradient pt-24 sm:pt-32 md:pt-36 flex justify-center px-6 sm:px-12">

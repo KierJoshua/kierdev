@@ -9,6 +9,7 @@ import projects from "./projects/projectsData";
 import { Link } from "react-router-dom";
 import Experience from "./experience/Experience";
 import RESUME from "../assets/files/latestResume.pdf"
+import { Helmet } from "react-helmet";
 
 const Home = () => {
   const trimmedProjects = projects.slice(0, 3);
@@ -20,6 +21,11 @@ const Home = () => {
   };
 
   return (
+    <>
+    <Helmet>
+    <title>Home</title>
+    <meta charSet="utf-8" />
+  </Helmet>
     <div className="min-h-screen w-full bg-custom-gradient pt-24 sm:pt-32 flex justify-center items-center px-6 sm:px-12 cursor-pointer overflow-hidden">
       <div className="flex flex-col items-center">
         <div className="grid md:grid-cols-2 items-center gap-10 rounded-lg min-h-[650px] max-w-md sm:max-w-2xl md:max-w-3xl bg-slate-900 p-10 shadow-xl">
@@ -127,6 +133,7 @@ const Home = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 
