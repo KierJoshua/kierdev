@@ -24,9 +24,9 @@ const Header = () => {
       {isClicked && (
         <ul className="absolute right-4 top-[120%] rounded px-10 py-5 bg-[#173558] gap-7 font-semibold">
           <NavMenuMobile link={"skills"} title={"Tech Skills"} />
-          <NavMenuMobile link={"about-me"} title={"About Me"} />
+          <NavMenuMobile link={"projects"} title={"Projects"} />
           <NavMenuMobile link={"experience"} title={"Experience"} />
-          <NavMenuMobile link={"contact"} title={"Contact"} />
+          <NavMenuMobile link={"about-me"} title={"About Me"} />
         </ul>
       )}
 
