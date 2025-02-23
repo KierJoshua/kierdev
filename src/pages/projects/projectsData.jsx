@@ -15,7 +15,7 @@ import reactnote from '../../assets/images/reactnote.png';
 import poccopy from '../../assets/images/poccopy.png';
 import portfolio1 from '../../assets/images/portfolio1.png';
 import netflixcopy from '../../assets/images/netflixcopy.png';
-
+import poc from '../../assets/images/poc-login.png';
 const projects = [
     {
         name: "React Note",
@@ -38,6 +38,13 @@ const projects = [
         image: netflixcopy,
         madeWith: [tailwind, react, javascript],
         link: "https://netflix-zeta-opal.vercel.app/"
+    },
+    {
+        name: "Capstone Project (Front End Developer)",
+        description: "The Clinic Management System is designed for optical clinics to help manage inventory and billing efficiently. It allows users to track eyeglasses, frames, accessories, and other products with ease. The system also includes an automated billing feature that helps monitor clients' monthly payments, reducing the chances of overdue balances and missed deadlines. With automation and real-time tracking, it improves overall operations and client management.",
+        image: poc,
+        madeWith: [html, css, bootstrap ,javascript],
+        link: "https://clinic-management-system-bx4e.vercel.app/"
     },
     {
         name: "First Portfolio",

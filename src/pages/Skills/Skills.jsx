@@ -3,7 +3,7 @@ import skills from "./SkillsData";
 
 const Skills = () => {
   return (
-    <div className="min-h-screen w-full bg-custom-gradient pt-36 flex justify-center px-6 sm:px-12">
+    <div className="min-h-screen w-full bg-custom-gradient pt-24 sm:pt-32 md:pt-36 flex justify-center px-6 sm:px-12">
       <div className="max-w-5xl w-full">
         <h1 className="text-center font-bold text-4xl mb-8">TECH SKILLS</h1>
 
