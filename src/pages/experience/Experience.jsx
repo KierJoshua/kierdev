@@ -1,9 +1,15 @@
 import React from "react";
 import Title from "../../components/Title";
 import experienceData from "./experienceData";
+import {Helmet} from "react-helmet";
 
 const Experience = ( {noPadding, noHeight} ) => {
   return (
+    <>
+       <Helmet>
+        <title>Experience</title>
+        <meta charSet="utf-8" />
+      </Helmet>
     <div className={`${noHeight ? "mb-10" : "min-h-screen"}  w-full ${noPadding ? "" : "pt-24 sm:pt-32 md:pt-36"} pb-5 flex justify-center px-6 sm:px-12`}>
       <div className="max-w-sm sm:max-w-lg lg:max-w-5xl w-full">
         <Title title={"Experience"} />
@@ -31,6 +37,7 @@ const Experience = ( {noPadding, noHeight} ) => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 
