@@ -11,7 +11,7 @@ const Skills = () => {
           </Helmet>
     <div className="min-h-screen w-full bg-custom-gradient pt-24 sm:pt-32 md:pt-36 flex justify-center px-6 sm:px-12">
       <div className="max-w-5xl w-full">
-        <h1 className="text-center font-bold text-4xl mb-8">TECH SKILLS</h1>
+        <h1 className="text-center font-bold text-4xl mb-8" data-aos="fade-up" data-aos-duration='500'>TECH SKILLS</h1>
 
         {["Most Used", "Occasionally Used", "Developing Expertise", "Familiar With"].map((category) => (
           <div key={category} className="mb-10">
