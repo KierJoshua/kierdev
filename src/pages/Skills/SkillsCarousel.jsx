@@ -50,7 +50,10 @@ const SkillsCarousel = () => {
               slidesToShow: 3,
               slidesToScroll: 3,
               infinite: true,
-              dots: true
+              dots: true,
+              autoplay: true,
+              autoplaySpeed: 4000,
+              speed: 450,
             }
           },
           {
@@ -58,14 +61,20 @@ const SkillsCarousel = () => {
             settings: {
               slidesToShow: 2,
               slidesToScroll: 2,
-              initialSlide: 2
+              initialSlide: 2,
+              autoplay: true,
+              autoplaySpeed: 4000,
+              speed: 350,
             }
           },
           {
             breakpoint: 480,
             settings: {
               slidesToShow: 1,
-              slidesToScroll: 1
+              slidesToScroll: 1,
+              autoplay: true,
+              autoplaySpeed: 2000,
+              speed: 250,
             }
           }
         ]
