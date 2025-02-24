@@ -6,7 +6,7 @@ import Socials from './components/Socials'
 
 const KRoot = () => {
   return (
-    <div className='bg-custom-gradient flex flex-col text-white font-poppins w-full'>
+    <div className='bg-custom-gradient flex flex-col text-white font-poppins w-full overflow-hidden'>
       <Header />
       <Socials />
       <Outlet />

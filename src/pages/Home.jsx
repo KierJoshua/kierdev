@@ -29,7 +29,7 @@ const Home = () => {
 
     <div className="min-h-screen w-full bg-custom-gradient pt-24 sm:pt-32 flex justify-center items-center px-6 sm:px-12 cursor-pointer overflow-hidden">
       <div className="flex flex-col items-center">
-        <div className="grid md:grid-cols-2 items-center gap-10 rounded-lg min-h-[650px] max-w-md sm:max-w-2xl md:max-w-3xl bg-slate-900 p-10 shadow-xl">
+        <div className="grid md:grid-cols-2 items-center gap-10 rounded-lg min-h-[650px] max-w-md sm:max-w-2xl md:max-w-3xl bg-slate-900 p-10 shadow-xl" data-aos="fade-right" data-aos-duration='1500'>
           {/* Left Content */}
           <div className="text-center md:text-left">
             <h1 className="text-5xl font-bold text-white mb-6 leading-tight">
@@ -55,23 +55,23 @@ const Home = () => {
           </div>
 
           {/* Right Image */}
-          <div className="flex justify-center cursor-pointer">
+          <div className="flex justify-center cursor-pointer" data-aos="fade-left" data-aos-duration='1500'>
             <img
               src={mypic}
               alt="Kier Joshua"
-              className="h-[50vh] z-0 w-auto rounded-lg shadow-lg transform hover:scale-110 transition-transform duration-300"
+              className="h-[50vh] object-cover z-0 w-auto rounded-lg shadow-lg transform hover:scale-110 transition-transform duration-300"
             />
           </div>
         </div>
 
-        <div className="max-w-7xl flex flex-col items-center gap-4 my-10 ">
+        <div className="max-w-7xl flex flex-col items-center gap-4 my-10" data-aos="fade-left" data-aos-duration='1500'>
           <Title title={"Tech Skills"} />
           <SkillsCarousel />
         </div>
 
         <div className="max-w-sm sm:max-w-xl md:max-w-4xl lg:max-w-7xl my-10">
           <Title title={"Projects"} />
-          <div className="w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5">
+          <div className="w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5" data-aos="zoom-in" data-aos-duration='1500'>
             {trimmedProjects.map((project, index) => {
               const isLongDescription = project.description.length > 200;
 
@@ -129,7 +129,7 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="w-full">
+        <div className="w-full" data-aos="zoom-in" data-aos-duration='1500'>
         <Experience noPadding noHeight/>
         </div>
       </div>

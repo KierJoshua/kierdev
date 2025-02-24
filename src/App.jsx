@@ -7,8 +7,18 @@ import Experience from './pages/experience/Experience'
 import Projects from './pages/projects/Projects'
 import AboutMe from './pages/AboutMe'
 import Skills from './pages/Skills/Skills'
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from 'react'
 
 function App() {
+
+  useEffect(() => {
+    AOS.init({
+      duration: 1000, // Animation duration in ms
+      once: true, // Whether animation should happen only once
+    });
+  }, []);
 
   const router = createBrowserRouter([{
     path:"/",

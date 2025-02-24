@@ -23,7 +23,7 @@ const Skills = () => {
                   <div
                     key={index}
                     className="flex flex-col items-center bg-slate-700 p-4 rounded-lg shadow-md border border-[#40A2D8] hover:shadow-[#40A2D8] transition-transform transform hover:scale-105 duration-300 cursor-pointer"
-                  >
+                    data-aos="fade-up" data-aos-duration='1500' >
                     <img src={skill.skill} alt={skill.name} className="w-16 h-16 object-contain mb-2" />
                     <h3 className="text-xs sm:text-sm md:text-md lg:text-lg font-medium">{skill.name}</h3>
                   </div>

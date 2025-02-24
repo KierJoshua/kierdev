@@ -48,16 +48,16 @@ const Projects = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <div className="rounded-lg bg-slate-900 my-3 hover:scale-105 transition-all p-5 min-h-[500px] flex flex-col">
+                  <div className="rounded-lg bg-slate-900 my-3 hover:scale-105 transition-all p-5 min-h-[500px] flex flex-col" data-aos="fade-down" data-aos-duration='1500' >
                     <img
                       src={project.image}
                       alt=""
                       className="w-full rounded p-4"
                     />
-                    <h1 className="text-center font-semibold text-2xl pb-3 h-16 flex items-center justify-center">
+                    <h1 className="text-center font-semibold text-2xl pb-3 h-16 flex items-center justify-center" data-aos="fade-left" data-aos-duration='1000'>
                       {project.name}
                     </h1>
-                    <p className="px-4 flex-grow">
+                    <p className="px-4 flex-grow" data-aos="fade-left" data-aos-duration='1500'>
                       {expanded[index] || !isLongDescription
                         ? project.description
                         : `${project.description.slice(0, 200)}... `}
@@ -73,10 +73,10 @@ const Projects = () => {
                         </button>
                       )}
                     </p>
-                    <h1 className="text-end px-4 font-semibold mt-4">
+                    <h1 className="text-end px-4 font-semibold mt-4" data-aos="fade-left" data-aos-duration='2000'>
                       Made With:
                     </h1>
-                    <div className="flex justify-end px-4 py-2 gap-2">
+                    <div className="flex justify-end px-4 py-2 gap-2" data-aos="fade-left" data-aos-duration='2000'> 
                       {Object.values(project.madeWith).map((skill, i) => (
                         <img key={i} src={skill} alt="" className="w-1/12" />
                       ))}

@@ -10,10 +10,10 @@ const AboutMe = () => {
       </Helmet>
       <div className="min-h-screen w-full bg-custom-gradient pt-24 sm:pt-32 md:pt-36 flex flex-col items-center px-6 sm:px-12">
         <div className="max-w-4xl w-full text-white">
-          <h1 className="text-4xl font-bold mb-6">About Me</h1>
+          <h1 className="text-4xl font-bold mb-6" data-aos="fade-up" data-aos-duration='500'>About Me</h1>
 
           {/* Introduction */}
-          <p className="text-lg sm:text-xl leading-relaxed mb-6">
+          <p className="text-lg sm:text-xl leading-relaxed mb-6" data-aos="fade-up" data-aos-duration='1000'>
             Hey there! I'm <span className="font-bold">Kier Joshua Du</span>, a
             passionate <span className="font-bold">front-end developer</span>{" "}
             dedicated to building interactive and user-friendly web
@@ -24,7 +24,7 @@ const AboutMe = () => {
           </p>
 
           {/* Education & Journey */}
-          <p className="text-lg sm:text-xl leading-relaxed mb-6">
+          <p className="text-lg sm:text-xl leading-relaxed mb-6" data-aos="fade-up" data-aos-duration='1500'>
             I graduated from{" "}
             <span className="font-bold">City College of Calamba </span>
             with a{" "}
@@ -41,7 +41,7 @@ const AboutMe = () => {
           </p>
 
           {/* Work Ethic & Passion */}
-          <p className="text-lg sm:text-xl leading-relaxed mb-6">
+          <p className="text-lg sm:text-xl leading-relaxed mb-6" data-aos="fade-up" data-aos-duration='2000'>
             I thrive on{" "}
             <span className="font-bold">solving real-world problems</span>{" "}
             through code, always seeking{" "}
@@ -53,7 +53,7 @@ const AboutMe = () => {
           </p>
 
           {/* Career Goals */}
-          <p className="text-lg sm:text-xl leading-relaxed mb-14">
+          <p className="text-lg sm:text-xl leading-relaxed mb-14" data-aos="fade-up" data-aos-duration='2500'>
             My ultimate goal is to transition into a{" "}
             <span className="font-bold">full-stack developer role</span>, where
             I can build both front-end and back-end solutions. I'm currently
@@ -65,8 +65,8 @@ const AboutMe = () => {
 
           {/* Hobbies Section */}
           <div className="w-full text-left">
-            <h2 className="text-2xl font-bold my-8">🛠️ Tech Stack & Skills</h2>
-            <ul className="grid grid-cols-2 sm:grid-cols-3 gap-4 text-lg font-medium px-6 sm:px-0">
+            <h2 className="text-2xl font-bold my-8" data-aos="fade-up" data-aos-duration='2700'>🛠️ Tech Stack & Skills</h2>
+            <ul className="grid grid-cols-2 sm:grid-cols-3 gap-4 text-lg font-medium px-6 sm:px-0" data-aos="fade-up" data-aos-duration='2700'>
               <li>⚡ React.js</li>
               <li>🎨 Tailwind CSS</li>
               <li>💻 JavaScript</li>
@@ -78,8 +78,8 @@ const AboutMe = () => {
 
           {/* Hobbies Section */}
           <div className="w-full text-left mt-10">
-            <h2 className="text-2xl font-bold mb-4">🎯 My Hobbies</h2>
-            <ul className="grid grid-cols-2 sm:grid-cols-3 gap-4 text-lg font-medium px-6 sm:px-0">
+            <h2 className="text-2xl font-bold mb-4" data-aos="fade-up" data-aos-duration='2000'>🎯 My Hobbies</h2>
+            <ul className="grid grid-cols-2 sm:grid-cols-3 gap-4 text-lg font-medium px-6 sm:px-0" data-aos="fade-up" data-aos-duration='2000'>
               <li>🎬 Watching Anime & Movies</li>
               <li>💻 Coding & Side Projects</li>
               <li>🏍️ Motorcycle Riding</li>
@@ -90,7 +90,7 @@ const AboutMe = () => {
           </div>
 
           {/* Call to Action */}
-          <div className="my-12">
+          <div className="my-12" data-aos="fade-up" data-aos-duration='2000'>
             <h2 className="text-2xl font-bold">🚀 Let's Connect!</h2>
             <p className="text-lg mt-2">
               I'm always open to discussing exciting opportunities or
