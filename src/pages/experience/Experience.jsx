@@ -2,6 +2,7 @@ import React from "react";
 import Title from "../../components/Title";
 import experienceData from "./experienceData";
 import { Helmet } from "react-helmet";
+import { FaCircle } from "react-icons/fa";
 
 const Experience = ({ noPadding, noHeight, noTitle }) => {
   return (
@@ -18,7 +19,7 @@ const Experience = ({ noPadding, noHeight, noTitle }) => {
       <div
         className={`${noHeight ? "mb-10" : "min-h-screen"}  w-full ${
           noPadding ? "" : "pt-24 sm:pt-32 md:pt-36"
-        } pb-5 flex justify-center px-6 sm:px-12`}
+        } pb-5 flex flex-col items-center px-6 sm:px-12`}
       >
         <div className="max-w-sm sm:max-w-lg lg:max-w-5xl w-full">
           <Title title={"Experience"} />
@@ -29,12 +30,34 @@ const Experience = ({ noPadding, noHeight, noTitle }) => {
                 key={index}
                 className="rounded-lg bg-slate-900 p-6 shadow-md hover:scale-105 transition-all cursor-pointer"
               >
-                <h1 className="font-semibold text-2xl text-[#40A2D8]" data-aos="fade-left" data-aos-duration='500'>
-                  {exp.companyName}
-                </h1>
-                <p className="text-lg font-medium text-gray-300" data-aos="fade-left" data-aos-duration='1000'>{exp.title}</p>
-                <p className="text-sm text-gray-400" data-aos="fade-left" data-aos-duration='1500'>{exp.date}</p>
-                <ul className="mt-3 space-y-2" data-aos="fade-left" data-aos-duration='2000'>
+                <div className="bg-[#b92f2f] rounded py-1 px-2">
+                  <h1
+                    className="font-semibold text-2xl text-white"
+                    data-aos="fade-left"
+                    data-aos-duration="500"
+                  >
+                    {exp.companyName}
+                  </h1>
+                  <p
+                    className="text-lg font-medium text-gray-200"
+                    data-aos="fade-left"
+                    data-aos-duration="1000"
+                  >
+                    {exp.title}
+                  </p>
+                </div>
+                <p
+                  className="text-sm text-gray-400                   py-1"
+                  data-aos="fade-left"
+                  data-aos-duration="1500"
+                >
+                  {exp.date}
+                </p>
+                <ul
+                  className="mt-3 space-y-2"
+                  data-aos="fade-left"
+                  data-aos-duration="2000"
+                >
                   {exp.type.map((type, i) => (
                     <li key={i} className="text-gray-300">
                       - {type}
