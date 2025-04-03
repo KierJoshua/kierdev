@@ -16,6 +16,7 @@ import poccopy from '../../assets/images/poccopy.png';
 import portfolio1 from '../../assets/images/portfolio1.png';
 import netflixcopy from '../../assets/images/netflixcopy.png';
 import poc from '../../assets/images/poc-login.png';
+import gradeCal from '../../assets/images/grade-calcu.png';
 const projects = [
     {
         name: "React Note",
@@ -23,6 +24,14 @@ const projects = [
         image: reactnote,
         madeWith:[tailwind, react],
         link: "https://note-app-delta-six.vercel.app/"
+        
+    },
+    {
+        name: "Grade Calculator",
+        description:" Developed a dynamic grade calculator app in React with a twist, allowing users to customize grading formulas and add new categories. This project strengthened my grasp of React fundamentals, state management, and component interactions.",
+        image: gradeCal,
+        madeWith:[tailwind, react, javascript],
+        link: "https://grade-calculator-snowy.vercel.app/"
         
     },
     {

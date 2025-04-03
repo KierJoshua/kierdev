@@ -2,13 +2,10 @@ import React, { useState } from "react";
 import mypic from "../assets/images/my-pic.jpg";
 import SkillsCarousel from "./Skills/SkillsCarousel";
 import Title from "../components/Title";
-import reactnote from "../assets/images/reactnote.png";
-import react from "../assets/images/react.png";
-import tailwind from "../assets/images/tailwind.png";
 import projects from "./projects/projectsData";
 import { Link } from "react-router-dom";
 import Experience from "./experience/Experience";
-import RESUME from "../assets/files/latestResume.pdf"
+import RESUME from "../assets/files/resume.pdf"
 import { Helmet } from "react-helmet";
 
 const Home = () => {
