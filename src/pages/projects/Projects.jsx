@@ -27,7 +27,7 @@ const Projects = () => {
       <div className="flex justify-center pt-24 sm:pt-32 md:pt-36">
         <div className="max-w-sm sm:max-w-xl md:max-w-4xl lg:max-w-7xl">
           <Title title={"Projects"} />
-          <div className="w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5">
+          <div className="w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5 ">
             {projects.map((project, index) => {
               const isLongDescription = project.description.length > 200;
 
@@ -48,7 +48,7 @@ const Projects = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <div className="rounded-lg bg-slate-900 my-3 hover:scale-105 transition-all p-5 min-h-[500px] flex flex-col" data-aos="fade-down" data-aos-duration='1500' >
+                  <div className="rounded-lg bg-slate-900 my-3 p-5 min-h-[500px] flex flex-col hover:scale-105 transition-all" data-aos="fade-down" data-aos-duration='1500' >
                     <img
                       src={project.image}
                       alt=""
