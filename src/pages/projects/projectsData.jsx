@@ -20,10 +20,10 @@ import gradeCal from '../../assets/images/grade-calcu.png';
 const projects = [
     {
         name: "React Note",
-        description: "A simple note-taking application built using React. This project helped me reinforce my understanding of React fundamentals while improving my ability to manage state and component interactions.",
+        description: "A simple note-taking application that started as a front-end project built with React and has since been improved into a full-stack app. This project reinforced my understanding of React fundamentals and allowed me to deepen my skills in backend development using Express.js, Node.js, and MongoDB. It showcases effective state management, component interactions, and full CRUD operations through a connected API.",
         image: reactnote,
-        madeWith:[tailwind, react],
-        link: "https://note-app-delta-six.vercel.app/"
+        madeWith:[tailwind, react, expressJs, nodeJs, mongodb],
+        link: "https://note-app-2-11xf.onrender.com/"
         
     },
     {
