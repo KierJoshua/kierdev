@@ -14,7 +14,7 @@ import expressJs from '../../assets/images/express-js.png';
 import reactnote from '../../assets/images/reactnote.png';
 import poccopy from '../../assets/images/poccopy.png';
 import portfolio1 from '../../assets/images/portfolio1.png';
-import netflixcopy from '../../assets/images/netflixcopy.png';
+import netflix from '../../assets/images/netflix.png';
 import poc from '../../assets/images/poc-login.png';
 import gradeCal from '../../assets/images/grade-calcu.png';
 const projects = [
@@ -25,6 +25,13 @@ const projects = [
         madeWith:[tailwind, react, expressJs, nodeJs, mongodb],
         link: "https://note-app-2-11xf.onrender.com/"
         
+    },
+        {
+        name: "Netflix Copy",
+        description: "Originally a frontend-only project, this Netflix-inspired web application has been upgraded to a full-stack MERN app. It now features account creation, and a password recovery system. This upgrade allowed me to deepen my experience with backend development, API security, and managing user data across the entire stack.",
+        image: netflix,
+        madeWith: [tailwind, react, javascript ,nodeJs, expressJs, mongodb],
+        link: "https://netflix-wfjl.vercel.app"
     },
     {
         name: "Grade Calculator",
@@ -40,13 +47,6 @@ const projects = [
         image: poccopy,
         madeWith: [tailwind, react, javascript],
         link: "https://clinic-management-system-bx4e.vercel.app/"
-    },
-    {
-        name: "Netflix Copy",
-        description: "A Netflix-inspired web application designed to enhance my skills in working with APIs and managing dynamic content. This project helped me deepen my understanding of React hooks, API integration, and problem-solving in a real-world application context.",
-        image: netflixcopy,
-        madeWith: [tailwind, react, javascript],
-        link: "https://netflix-zeta-opal.vercel.app/"
     },
     {
         name: "Capstone Project (Front End Developer)",
