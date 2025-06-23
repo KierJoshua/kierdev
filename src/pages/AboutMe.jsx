@@ -9,7 +9,7 @@ const AboutMe = () => {
         <meta charSet="utf-8" />
       </Helmet>
       <div className="min-h-screen w-full bg-custom-gradient pt-24 sm:pt-32 md:pt-36 flex flex-col items-center px-6 sm:px-12">
-        <div className="max-w-4xl w-full text-white">
+        <div className="max-w-4xl w-full text-white text-justify">
           <h1
             className="text-4xl font-bold mb-6"
             data-aos="fade-up"

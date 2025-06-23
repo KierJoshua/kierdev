@@ -52,13 +52,14 @@ const Experience = ({ noPadding, noHeight, noTitle }) => {
                   {exp.date}
                 </p>
                 <ul
-                  className="mt-3 space-y-2"
+                  className="mt-3 space-y-2 list-disc text-justify"
                   data-aos="fade-left"
                   data-aos-duration="2000"
+                  
                 >
                   {exp.type.map((type, i) => (
                     <li key={i} className="text-gray-300">
-                      - {type}
+                      {type}
                     </li>
                   ))}
                 </ul>
@@ -116,7 +117,7 @@ const Experience = ({ noPadding, noHeight, noTitle }) => {
                         {experience.title}
                       </p>
                     </div>
-                    <ul className="text-gray-300 list-inside mt-2 max-w-80">
+                    <ul className="text-gray-300 list-inside text-justify mt-2 max-w-80 list-disc">
                       {experience.type.map((point, i) => (
                         <li key={i} className="my-3">
                           {point}
