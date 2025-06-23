@@ -11,7 +11,7 @@ const experienceData = [
   {
     companyName: "digichALLENger",
     title: "Internship (600 hours)",
-    date: "January 2025 - Ongoing",
+    date: "January 2025 - April 2025",
     type: [
       "Co-developed a mobile application as a primary long-term task throughout the internship, focusing on UI, feature development, and overall functionality, collaborating with a partner.",
 
