@@ -17,6 +17,7 @@ import portfolio1 from "../../assets/images/portfolio1.png";
 import netflix from "../../assets/images/netflix.png";
 import poc from "../../assets/images/poc-login.png";
 import gradeCal from "../../assets/images/grade-calcu.png";
+import tictactoe from "../../assets/images/tictactoe.png";
 const projects = [
   {
     name: "First Portfolio",
@@ -49,6 +50,14 @@ const projects = [
     image: gradeCal,
     madeWith: [tailwind, react, javascript],
     link: "https://grade-calculator-snowy.vercel.app/",
+  },
+    {
+    name: "Tic Tac Toe",
+    description:
+      "A classic Tic Tac Toe game built with React. It allows two players to take turns marking X and O on a 3x3 grid. This project helped me practice component structuring and basic game logic using React hooks.",
+    image: tictactoe,
+    madeWith: [tailwind, react, javascript],
+    link: "https://tic-tac-toe-eight-gilt-46.vercel.app/",
   },
   {
     name: "Capstone Project Copy (Front End)",
