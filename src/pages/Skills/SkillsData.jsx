@@ -10,6 +10,7 @@ import tailwind from '../../assets/images/tailwind.png';
 import wordpress from '../../assets/images/wordpress.png';
 import nodeJs from '../../assets/images/node-js.png';
 import mongodb from '../../assets/images/mongodb.png';
+import postman from '../../assets/images/Postman.png';
 import expressJs from '../../assets/images/express-js.png';
 
 const skills = [
@@ -27,6 +28,7 @@ const skills = [
   { skill: nodeJs , name:"nodeJS", category: "Developing Expertise"},
   { skill: expressJs , name:"expressJS", category: "Developing Expertise"},
   { skill: mongodb , name:"mongoDB", category: "Developing Expertise"},
+  { skill: postman , name:"Postman", category: "Developing Expertise"},
 ];
 
 export default skills;
