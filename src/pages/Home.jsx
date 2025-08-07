@@ -5,7 +5,7 @@ import Title from "../components/Title";
 import projects from "./projects/projectsData";
 import { Link } from "react-router-dom";
 import Experience from "./experience/Experience";
-import RESUME from "../assets/files/resume.pdf"
+import RESUME from "../assets/files/CV.pdf"
 import { Helmet } from "react-helmet";
 
 const Home = () => {
